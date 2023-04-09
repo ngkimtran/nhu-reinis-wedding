@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://reinisnhuwedding.com/", 
+  "homepage": "http://ngkimtran.github.io/nhu-reinis-wedding", 
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
