@@ -1,16 +1,16 @@
 import React from "react";
-import placeholder from "../images/placeholder.jpg";
+import intro_pic from "../images/intro_pic.jpg";
 import Headline from "./Headline";
 
 const Introduction = () => {
   return (
     <div className="intro-content">
-      <img className="intro-img" src={placeholder} alt="" />
+      <img className="intro-img" src={intro_pic} alt="" />
       <div className="intro-text">
         <Headline>
           You are invited to join us for our wedding celebration on
         </Headline>
-        <p className="text-large">JUNE 23, 2023</p>
+        <p className="text-large">JUNE 25, 2023</p>
         <p className="text-medium">in Nha Trang, Vietnam</p>
       </div>
     </div>

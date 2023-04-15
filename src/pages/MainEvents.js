@@ -12,13 +12,13 @@ const MainEvents = () => {
       <Event
         title="Pre-party"
         time="0:00 PM - 0:00 PM"
-        date="June 20, 2023"
+        date="June 25, 2023"
         place="ABC DEFG"
       />
       <Event
         title="Wedding ceremony"
         time="0:00 PM - 0:00 PM"
-        date="June 23, 2023"
+        date="June 25, 2023"
         place="ABC DEFG"
       />
       <Footer />
