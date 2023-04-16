@@ -119,6 +119,7 @@ ul {
 
 /* Gallery */
 .gallery-container {
+  min-height: 80vh;
   margin: var(--defaultMargin);
   width: var(--defaultWith);
   max-width: var(--fullWith);
@@ -136,6 +137,13 @@ ul {
 }
 
 /* Event */
+.events-container {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .event-container {
   border: var(--secondaryBorder);
   width: var(--smallWith);
@@ -152,43 +160,10 @@ ul {
   margin: 0;
 }
 
-/* Form */
-.rsvp-form {
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: var(--defaultMargin);
-}
-
-.rsvp-button {
-  font-size: var(--fontSizeSm);
-  color: var(--mainGold);
-  border: none;
-  border-bottom: 0.2rem solid var(--mainWhite);
-  background: none;
-  font-weight: bold;
-}
-
-tr,
-th {
-  padding: 3rem;
-}
-
-th,
-td {
-  text-align: left;
-}
-
-td {
-  padding: 2rem;
-}
-
-.MuiInput-root {
-  border-bottom: 1px solid var(--mainWhite) !important;
-}
-
 @media screen and (max-width: 920px) {
+  .events-container {
+    min-height: 60vh;
+  }
   .intro-content {
     margin: 7rem 0 5rem 0;
   }

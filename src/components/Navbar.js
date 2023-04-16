@@ -33,14 +33,6 @@ const Navbar = () => {
               Events
             </NavLink>
           </li>
-          {/* <li>
-            <NavLink
-              to="/rsvp"
-              className={({ isActive }) => (isActive ? "active" : undefined)}
-            >
-              RSVP
-            </NavLink>
-          </li> */}
         </ul>
       </div>
     </nav>
