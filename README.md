@@ -4,3 +4,14 @@
     2. To use, change the `src` attribute in the `img` tag to the appropriate name. E.g for the above import, the syntax would be `<img className="intro-img" src={intro_pic} alt="" />`
 - `WithFamily` is for pictures of the bride & groom (and Kick).
 - `WithFriends` is for pictures of the bride & groom with friends.
+
+___ RUN IN DEV MODE ___
+In terminal:
+    1. npm start
+
+___ DEPLOYMEMT ___
+In terminal:
+    1. git add .
+    2. git commit -m "Meaning message"
+    3. git push origin master
+    4. npm run deploy
