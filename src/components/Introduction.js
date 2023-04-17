@@ -1,5 +1,5 @@
 import React from "react";
-import intro_pic from "../images/intro_pic.jpg";
+import intro_pic from "../images/intro_pic_official.JPG";
 import Headline from "./Headline";
 
 const Introduction = () => {

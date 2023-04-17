@@ -1,13 +1,13 @@
 import React from "react";
-import intro_pic from "../images/intro_pic.jpg";
-import kick_test_2 from "../images/kick_test_2.jpg";
+import pic_1 from "../images/family/IMG_2302.JPG";
+import pic_2 from "../images/family/IMG_2316.JPG";
 
 const WithFamily = () => {
   return (
     <div className="picture-list-container">
       <div className="picture-list-grid">
-        <img className="gallery-img" src={intro_pic} alt="" />
-        <img className="gallery-img" src={kick_test_2} alt="" />
+        <img className="gallery-img" src={pic_1} alt="" />
+        <img className="gallery-img" src={pic_2} alt="" />
       </div>
     </div>
   );
