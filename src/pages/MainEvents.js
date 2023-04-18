@@ -12,9 +12,16 @@ const MainEvents = () => {
       <div className="events-container">
         <Event
           title="Wedding ceremony"
-          time="0:00 PM - 0:00 PM"
+          time="17:00 PM"
           date="June 25, 2023"
-          place="ABC DEFG"
+          place={
+            <div>
+              King Town Grand Hotel
+              <br /> Lot 5-6
+              <br /> Pham Van Dong St.
+              <br /> Nha Trang, Khanh Hoa
+            </div>
+          }
         />
       </div>
       <Footer />
